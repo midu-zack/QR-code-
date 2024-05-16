@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
 import './App.css';
+// import ImageUploadQr from './component/qrimage'
+import QRCodeGenerator from './component/qrcode';
+ // Update the import path
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <QRCodeGenerator />
+      {/* <ImageUploadQr/> */}
     </div>
   );
 }

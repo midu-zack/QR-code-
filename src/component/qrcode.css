@@ -1,0 +1,18 @@
+/* qrcode.css */
+body{
+    background-color: rgb(227, 227, 227);
+}.qrcode-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .qrcode-input {
+    margin-bottom: 20px;
+  }
+  
+  .qrcode {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+  }
+  
